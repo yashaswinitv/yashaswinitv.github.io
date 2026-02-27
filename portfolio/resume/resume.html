@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume — Kushala Rani Talakad Manjunath</title>
+    <style>
+      :root {
+        --text: #111;
+        --muted: #444;
+        --rule: #333;
+        --accent: #0c4a6e;
+        --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+          Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+          Arial, sans-serif;
+      }
+
+      html { font-size: 11pt; }
+      body {
+        color: var(--text);
+        font-family: var(--font);
+        line-height: 1.35;
+        margin: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .page {
+        width: 210mm; /* A4 width */
+        min-height: calc(297mm - 30mm); /* A4 height minus margins */
+        margin: 15mm auto; /* 15mm all sides visually; print uses @page */
+        padding: 0;
+      }
+      .content { padding: 0 14mm; }
+
+      header { text-align: center; margin-bottom: 6mm; }
+      header h1 {
+        font-size: 20pt;
+        margin: 0 0 4mm 0;
+        letter-spacing: 0.2px;
+      }
+      .contact {
+        color: var(--muted);
+        font-size: 10pt;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 12px;
+        justify-content: center;
+      }
+      .contact a { color: var(--accent); text-decoration: none; }
+      .contact a:hover { text-decoration: underline; }
+      .sep::before { content: "·"; margin: 0 6px; color: var(--muted); }
+
+      h2 {
+        font-size: 12pt;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        margin: 10mm 0 3mm;
+        padding-bottom: 2mm;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .summary { margin-top: 0; }
+      .summary p { margin: 0; }
+
+      /* Definition rows for skills */
+      .defs { display: grid; grid-template-columns: 160px 1fr; gap: 2mm 6mm; }
+      .defs .term { font-weight: 600; color: var(--text); }
+      .defs .desc { color: var(--text); }
+
+      /* Experience / Projects items */
+      .item { break-inside: avoid; margin: 4mm 0 0; }
+      .item .row {
+        display: flex; align-items: baseline; justify-content: space-between;
+        gap: 10px; flex-wrap: wrap;
+      }
+      .item .title { font-weight: 700; }
+      .item .meta { color: var(--muted); }
+      .item ul { margin: 2mm 0 0 5mm; padding: 0 0 0 3mm; }
+      .item li { margin: 1.2mm 0; }
+
+      /* Print setup */
+      @page { size: A4; margin: 12mm; }
+      @media print {
+        .page { margin: 0; width: auto; }
+        a[href^="http"]::after { content: ""; } /* hide link URLs */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="content">
+        <header>
+          <h1>Kushala Rani Talakad Manjunath</h1>
+          <div class="contact">
+            <a href="https://github.com/Kushala-Manjunath">GitHub</a>
+            <span class="sep"></span>
+            <a href="https://www.linkedin.com/in/kushala-rani/">LinkedIn</a>
+            <span class="sep"></span>
+            <a href="mailto:talakadmanjunath.k@northeastern.edu">talakadmanjunath.k@northeastern.edu</a>
+            <span class="sep"></span>
+            <a href="tel:+18573967447">(857) 396-7447</a>
+            <span class="sep"></span>
+            <span>Boston, MA</span>
+          </div>
+        </header>
+
+        <section class="summary">
+          <h2>Summary</h2>
+          <p>
+            Graduate student in Applied Mathematics with expertise in SQL, Python,
+            R and statistical analysis for data-driven decision-making. Skilled in
+            extracting, cleaning, and modeling complex datasets, building predictive
+            models, and creating insightful visualizations. Strong communicator with
+            proven ability to translate analytics into actionable business
+            recommendations.
+          </p>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <div class="item">
+            <div class="row">
+              <div class="title">Northeastern University — Boston, MA, USA</div>
+              <div class="meta">Jan 2024 — Dec 2025</div>
+            </div>
+            <div class="meta">Master of Science in Applied Mathematics, GPA: 3.524</div>
+            <div>Relevant Courses: Neural Networks and Deep Learning, Machine Learning, Applied Statistics, Numerical Analysis</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Skills</h2>
+          <div class="defs">
+            <div class="term">Programming Languages</div>
+            <div class="desc">Python, R, MATLAB, SQL, C</div>
+
+            <div class="term">Tools & Packages</div>
+            <div class="desc">NLP, Pandas, NumPy, TensorFlow, Keras, PyTorch, Matplotlib, Seaborn, Power BI, Dashboards, Microsoft Office Suite, Jupyter Notebook, Google Sheets, LaTeX, GIS (Geographic Information System), CAD (Computer‑aided Design), AutoCAD, STAAD PRO (Structural Analysis and Designing Program)</div>
+
+            <div class="term">Certifications</div>
+            <div class="desc">Top 10 percentile in International Academic Wiz (IAW), Matrix Method of Structural Analysis (NPTEL), Python for Data Science (NPTEL), MATLAB</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Work Experience</h2>
+          <div class="item">
+            <div class="row">
+              <div class="title">Administrative Assistant, Bridge to Calculus (BtC) — Boston, MA</div>
+              <div class="meta">Apr 2025 — Aug 2025</div>
+            </div>
+            <ul>
+              <li>Analyzed and optimized $200K program budget using SQL and Excel, identifying inefficiencies and improving allocation for financial sustainability; optimized resource allocation to enhance impact for 100+ underrepresented STEM students.</li>
+              <li>Built dashboards to track KPIs, improving cross‑team communication and transparency; coordinated annual campus events and streamlined administrative operations via digital systems and automations, reducing preparation time by 30% and achieving 95% participant satisfaction.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="title">Teaching Assistant, Northeastern University — Boston, MA</div>
+              <div class="meta">Jan 2025 — Apr 2025</div>
+            </div>
+            <ul>
+              <li>TA for Applied Mathematics Capstone; guided 30+ undergraduate students on ML model development, deployment workflows, and reproducibility best practices.</li>
+              <li>Conducted workshops on Git version control and collaborative coding; mentored teams on end‑to‑end pipelines including data preprocessing, model training, and performance evaluation.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="title">Student Mentor, Bridge to Calculus (BtC) — Boston, MA</div>
+              <div class="meta">Jun 2024 — Aug 2024</div>
+            </div>
+            <ul>
+              <li>Mentored students in Precalculus for Boston Public Schools.</li>
+              <li>Supported Project Math and Math for Biology and Chemistry; contributed NetLogo Web models for Biology.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="title">Intern, Public Works Department (PWD) — Mysore, India</div>
+              <div class="meta">Aug 2022 — Sept 2022</div>
+            </div>
+            <ul>
+              <li>Participated in on‑site management of road and park construction activities, including scheduling, material handling, and team coordination.</li>
+              <li>Assisted with phases of bituminous road construction (base preparation, bituminous coating, mix laying, surface compaction) and installation of kerbs, pavements, and road studs.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Projects</h2>
+          <div class="item">
+            <div class="row">
+              <div class="title">Detecting Gravitational Waves Using CNNs</div>
+              <div class="meta">Jan 2025 — Apr 2025</div>
+            </div>
+            <div>Developed a CNN model using real and synthetic LIGO GWOSC data to detect gravitational waves from BBH, BNS, and NSBH events; applied signal preprocessing to improve classification accuracy and identified GW170817 with 90% confidence.</div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="title">Foreign Exchange Rate Forecasting (ML)</div>
+              <div class="meta">Jan 2024 — Apr 2024</div>
+            </div>
+            <div>Graduate project applying statistical time series analysis and deep learning (RNNs and CNNs) to model medium‑term EUR/USD movements, analyzing 6,119 historical observations and improving predictive accuracy with actionable insights for technical analysis.</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Volunteer Experience</h2>
+          <div>Academic support instructor at NGO “Make A Difference,” teaching mathematics to final‑year high school students for two years.</div>
+        </section>
+      </div>
+    </div>
+  </body>
+  </html>
