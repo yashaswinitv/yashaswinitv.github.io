@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="QGIS">
+  <rect width="36" height="36" rx="8" fill="#ffffff"/>
+  <circle cx="18" cy="18" r="10" fill="#3a9d23"/>
+  <rect x="22" y="18" width="8" height="3" rx="1.5" transform="rotate(45 22 18)" fill="#f2c94c"/>
+  <circle cx="18" cy="18" r="6.5" fill="#ffffff" opacity=".15"/>
+  <path d="M18 9a9 9 0 100 18 9 9 0 000-18zm0-2a11 11 0 110 22 11 11 0 010-22z" fill="#2e7d1b"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="STAAD PRO">
+  <rect width="36" height="36" rx="6" fill="#0b5fa5"/>
+  <text x="6" y="21" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">STAAD</text>
+  <rect x="6" y="24" width="24" height="3" fill="#ffffff" opacity=".85"/>
+</svg>

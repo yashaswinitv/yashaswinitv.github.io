@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skillsWorkflowSurface" x1="5" y1="6" x2="27" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="skillsWorkflowStroke" x1="8" y1="8" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#CFFAFE"/>
+    </linearGradient>
+  </defs>
+  <rect x="2.75" y="3" width="26.5" height="26" rx="9" fill="url(#skillsWorkflowSurface)" fill-opacity="0.2" stroke="url(#skillsWorkflowStroke)" stroke-width="1.5"/>
+  <rect x="9" y="9" width="6" height="6" rx="1.5" stroke="url(#skillsWorkflowStroke)" stroke-width="1.5"/>
+  <rect x="17" y="17" width="6" height="6" rx="1.5" stroke="url(#skillsWorkflowStroke)" stroke-width="1.5"/>
+  <rect x="17" y="9" width="6" height="6" rx="1.5" stroke="url(#skillsWorkflowStroke)" stroke-width="1.5"/>
+  <path d="M15 12H17" stroke="url(#skillsWorkflowStroke)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M20 15V17" stroke="url(#skillsWorkflowStroke)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M12 15V18.5C12 19.3284 12.6716 20 13.5 20H17" stroke="url(#skillsWorkflowStroke)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

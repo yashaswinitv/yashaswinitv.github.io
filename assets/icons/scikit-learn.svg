@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="scikit-learn">
+  <rect width="36" height="36" rx="8" fill="#ffffff"/>
+  <ellipse cx="14" cy="20" rx="9" ry="7" fill="#f7931e"/>
+  <ellipse cx="23" cy="16" rx="7" ry="6" fill="#3498db" opacity=".9"/>
+  <text x="12" y="22" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#ffffff">sk</text>
+</svg>
