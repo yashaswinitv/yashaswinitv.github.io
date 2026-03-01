@@ -396,7 +396,7 @@ p {
   z-index: 1;
   display: grid;
   gap: clamp(16px, 2.8vw, 56px);
-  grid-template-columns: (1fr ,1fr);
+  grid-template-columns:1fr ,1fr;
   align-items: center;
 }
 
