@@ -10,7 +10,7 @@
 Graduate student in Data Science  with expertise in SQL, Python, R and statistical analysis for data-driven decision-making. Skilled in extracting, cleaning, and modeling complex datasets, building predictive models, and creating insightful visualizations. Strong communicator with proven ability to translate analytics into actionable business recommendations.
 
 ## Education
-- Northeastern University — Boston, MA, USA
+- queen maryUniversity of London — London, UK
   - Master of Science in Data Science, Grade:Merit (Sep 2024 — Sep 2025)
   - Relevant Courses: Neural Networks and Deep Learning, Machine Learning, Applied Statistics, Numerical Analysis
 
