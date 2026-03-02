@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume — Yashaswini Talakadu Vijaykumar</title>
+    <style>
+      :root {
+        --text: #111;
+        --muted: #444;
+        --rule: #333;
+        --accent: #0c4a6e;
+        --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+          Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+          Arial, sans-serif;
+      }
+
+      html { font-size: 11pt; }
+      body {
+        color: var(--text);
+        font-family: var(--font);
+        line-height: 1.35;
+        margin: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .page {
+        width: 210mm; /* A4 width */
+        min-height: calc(297mm - 30mm); /* A4 height minus margins */
+        margin: 15mm auto; /* 15mm all sides visually; print uses @page */
+        padding: 0;
+      }
+      .content { padding: 0 14mm; }
+
+      header { text-align: center; margin-bottom: 6mm; }
+      header h1 {
+        font-size: 20pt;
+        margin: 0 0 4mm 0;
+        letter-spacing: 0.2px;
+      }
+      .contact {
+        color: var(--muted);
+        font-size: 10pt;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 12px;
+        justify-content: center;
+      }
+      .contact a { color: var(--accent); text-decoration: none; }
+      .contact a:hover { text-decoration: underline; }
+      .sep::before { content: "·"; margin: 0 6px; color: var(--muted); }
+
+      h2 {
+        font-size: 12pt;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        margin: 10mm 0 3mm;
+        padding-bottom: 2mm;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .summary { margin-top: 0; }
+      .summary p { margin: 0; }
+
+      /* Definition rows for skills */
+      .defs { display: grid; grid-template-columns: 160px 1fr; gap: 2mm 6mm; }
+      .defs .term { font-weight: 600; color: var(--text); }
+      .defs .desc { color: var(--text); }
+
+      /* Experience / Projects items */
+      .item { break-inside: avoid; margin: 4mm 0 0; }
+      .item .row {
+        display: flex; align-items: baseline; justify-content: space-between;
+        gap: 10px; flex-wrap: wrap;
+      }
+      .item .title { font-weight: 700; }
+      .item .meta { color: var(--muted); }
+      .item ul { margin: 2mm 0 0 5mm; padding: 0 0 0 3mm; }
+      .item li { margin: 1.2mm 0; }
+
+      /* Print setup */
+      @page { size: A4; margin: 12mm; }
+      @media print {
+        .page { margin: 0; width: auto; }
+        a[href^="http"]::after { content: ""; } /* hide link URLs */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="content">
+        <header>
+          <h1>Yashaswini Talakadu Vijaykumar</h1>
+          <div class="contact">
+            <a href="https://github.com/Kushala-Manjunath">GitHub</a>
+            <span class="sep"></span>
+            <a href="https://www.linkedin.com/in/kushala-rani/">LinkedIn</a>
+            <span class="sep"></span>
+            <a href="mailto:yashaswinitv27@gmail.com">yashaswinitv27@gmail.com</a>
+            <span class="sep"></span>
+            <a href="tel:+447887121726">(44)7887121726</a>
+            <span class="sep"></span>
+            <span>London, UK</span>
+          </div>
+        </header>
+
+        <section class="summary">
+          <h2>Summary</h2>
+          <p>
+            Graduate student in Data Science with expertise in SQL, Python,
+            R and statistical analysis for data-driven decision-making. Skilled in
+            extracting, cleaning, and modeling complex datasets, building predictive
+            models, and creating insightful visualizations. Strong communicator with
+            proven ability to translate analytics into actionable business
+            recommendations.
+          </p>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <div class="item">
+            <div class="row">
+              <div class="title">Queen Mary University of London — London, UK</div>
+              <div class="meta">Jan 2024 — Dec 2025</div>
+            </div>
+            <div class="meta">Master of Science in Data Science, Grade:Merit</div>
+            <div>Relevant Courses: Neural Networks and Deep Learning, Machine Learning, Applied Statistics, Numerical Analysis</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Skills</h2>
+          <div class="defs">
+            <div class="term">Programming Languages</div>
+            <div class="desc">Python, R, MATLAB, SQL, C</div>
+        <section>
+          <h2>Work Experience</h2>
+          <div class="item">
+            <div class="row">
+              <div class="title">Demonstrator — London, UK</div>
+              <div class="meta">may 2025 — jan 2026</div>
+            </div>
+            <ul>
+              <li>Demonstrated big data processing techniques and tools, helping learners understand complex workflows and interpret results effectively.</li>
+              <li>Assisted students at Queen Mary University of London with hands-on big data processing exercises, guiding them through practical applications of large-scale data analysis.</li>
+            </ul>
+          </div>
+
+         
+        </section>
+
+        <section>
+          <h2>Projects</h2>
+          <div class="item">
+            <div class="row">
+              <div class="title">cientometric analysis of machine learning project</div>
+              <div class="meta">May 2025 — Sep 2025</div>
+            </div>
+            <div>Conducted a scientometric analysis of machine learning research, examining publication trends, influential authors, and key research areas to map the evolution of the field.</div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="title">facial recognition (ML)</div>
+              <div class="meta">Jan 2023 — Apr 2023</div>
+            </div>
+            <div>Graduate project  facial recognition system using machine learning algorithms to accurately detect and identify faces from images and video streams.</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Volunteer Experience</h2>
+          <div>Academic support instructor at NGO “Make A Difference,” teaching computer science to final‑year high school students for two years.</div>
+        </section>
+      </div>
+    </div>
+  </body>
+  </html>
